@@ -25,20 +25,20 @@ const questions = [{
   },
   {
     id: 3,
-    question: 'Question 3',
-    answer: 'Answer 3',
+    question: 'This term refers to the spread of cultural traits from one place to another.',
+    answer: 'What is cultural diffusion?',
     value: 100
   },
   {
     id: 4,
-    question: 'Question 4',
-    answer: 'Answer 4',
+    question: 'This term refers to a political entity that has a clearly defined territory and a single government.',
+    answer: 'What is a state?',
     value: 100
   },
   {
     id: 5,
-    question: 'Question 5',
-    answer: 'Answer 5',
+    question: "This term refers to the pratice of growing only enough crops to feed one's crops and one's family.",
+    answer: 'What is subsistence agriculture?',
     value: 100
   },
   {
@@ -67,14 +67,14 @@ const questions = [{
   },
   {
     id: 10,
-    question: 'Question 3',
-    answer: 'Answer 3',
+    question: 'This term describes the origin of a cultural trait or idea, before it spread.',
+    answer: 'What is a hearth?',
     value: 200
   },
   {
     id: 11,
-    question: 'Question 4',
-    answer: 'Answer 4',
+    question: 'This type of boundary not established out of practical purposes, and are essentially arbitrary in nature.',
+    answer: 'What are geometric boundaries?',
     value: 200
   },
   {
@@ -109,14 +109,14 @@ const questions = [{
   },
   {
     id: 17,
-    question: 'Question 3',
-    answer: 'Answer 3',
+    question: 'This subgroup of culture is very slow to adapt and often spreads through relocation diffusion.',
+    answer: 'What is folk culture?',
     value: 300
   },
   {
     id: 18,
-    question: 'Question 4',
-    answer: 'Answer 4',
+    question: 'This type of political organization involves multiple countries working together for a common goal, such as the European Union.',
+    answer: 'What is a supranational organization?',
     value: 300
   },
   {
@@ -151,14 +151,14 @@ const questions = [{
   },
   {
     id: 24,
-    question: 'Question 3',
-    answer: 'Answer 3',
+    question: 'This term describes the process of a cultural trait or idea being passed on from those of status.',
+    answer: 'What is hierarchical diffusion?',
     value: 400
   },
   {
     id: 25,
-    question: 'Question 4',
-    answer: 'Answer 4',
+    question: 'This term describes the practice of adjusting voting district boundaries in order to benefit the interest of one political party or group.',
+    answer: 'What is gerrymandering?',
     value: 400
   },
   {
@@ -193,20 +193,20 @@ const questions = [{
   },
   {
     id: 31,
-    question: 'Question 3',
-    answer: 'Answer 3',
+    question: 'This term refers to the modification of a culture as it adopts traits from another culture while still retaining some of its original characteristics.',
+    answer: 'What is acculturation?',
     value: 500
   },
   {
     id: 32,
-    question: 'Question 4',
-    answer: 'Answer 4',
+    question: 'This term describes the fragmentation of a larger region or state into smaller regions or states, which may be hostile or uncooperative with one another.',
+    answer: 'What is balkanization?',
     value: 500
   },
   {
     id: 33,
-    question: 'Question 5',
-    answer: 'Answer 5',
+    question: 'This term refers to a type of subsistence agriculture in which people move their livestock from place to place in search of food and water.',
+    answer: 'What is pastoral nomadism?',
     value: 500
   },
   {
