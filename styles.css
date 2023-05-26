@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 30px 0;
+  color: #1e90ff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+background-color: #ffffff;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  background-color: #1e90ff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.grid-item {
+  background-color: #ffffff;
+  padding: 15px;
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.grid-item.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+	background-color: #cccccc;
+}
+
+#question-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#question-modal.hidden {
+  display: none !important;
+}
+
+#question-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#question-text {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+#answer-text {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #1e90ff;
+}
+
+#reveal-answer,
+#correct,
+#incorrect {
+  background-color: #ffffff;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight:bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#reveal-answer:hover,
+#correct:hover,
+#incorrect:hover {
+  background-color: #1e90ff;
+  color: #ffffff;
+}
+
+#reveal-answer:focus,
+#correct:focus,
+#incorrect:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#close-question {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
