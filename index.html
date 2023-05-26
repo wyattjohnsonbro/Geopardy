@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geopardy!</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="teams-container">
+      <button id="add-team">Add Team</button>
+    </div>
+    <h1>Geopardy!</h1>
+    <div id="game-board"></div>
+    <div id="question-modal" class="hidden">
+      <div id="question-content">
+        <h3 id="question-text"></h3>
+        <button id="reveal-answer">Reveal Answer</button>
+        <p id="answer-text" class="hidden"></p>
+        <button id="correct" class="hidden">Correct</button>
+        <button id="incorrect" class="hidden">Incorrect</button>
+        <span id="close-question">&times;</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
