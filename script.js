@@ -43,14 +43,14 @@ const questions = [{
   },
   {
     id: 6,
-    question: 'Question 6',
-    answer: 'Answer 6',
+    question: 'This term refers to a large urban area that consists of several metropolitan areas that have grown together.',
+    answer: 'What is a megalopolis?',
     value: 100
   },
   {
     id: 7,
-    question: 'Question 7',
-    answer: 'Answer 7',
+    question: 'This term refers to an industry whose inputs weigh more than the final products.',
+    answer: 'What is a bulk-reducing industry?',
     value: 100
   },
   {
@@ -79,20 +79,20 @@ const questions = [{
   },
   {
     id: 12,
-    question: 'Question 5',
-    answer: 'Answer 5',
+    question: 'What is the term for the process of converting forested land into agricultural land?',
+    answer: 'What is deforestation?',
     value: 200
   },
   {
     id: 13,
-    question: 'Question 6',
-    answer: 'Answer 6',
+    question: "This geographer's model of urban land use divides cities into concentric zones based on their function.",
+    answer: 'Who is Ernest Burgess?',
     value: 200
   },
   {
     id: 14,
-    question: 'Question 7',
-    answer: 'Answer 7',
+    question: 'This economic sector involves the extraction of raw materials, such as mining and agriculture.',
+    answer: 'What is the primary sector?',
     value: 200
   },
   {
@@ -121,20 +121,20 @@ const questions = [{
   },
   {
     id: 19,
-    question: 'Question 5',
-    answer: 'Answer 5',
+    question: 'What is the name of the process that greatly increased agricultural productivity in the 20th century, allowing for the production of more food per acre of land?',
+    answer: 'What is the Green Revolution?',
     value: 300
   },
   {
     id: 20,
-    question: 'Question 6',
-    answer: 'Answer 6',
+    question: 'This term refers to the process of renovating and improving a house or district to attract wealthier residents.',
+    answer: 'What is gentrification?',
     value: 300
   },
   {
     id: 21,
-    question: 'Question 7',
-    answer: 'Answer 7',
+    question: 'This revolution marked the transition from agrarian societies to industrialized, urban societies.',
+    answer: 'What is the Industrial Revolution?',
     value: 300
   },
   {
@@ -163,20 +163,20 @@ const questions = [{
   },
   {
     id: 26,
-    question: 'Question 5',
-    answer: 'Answer 5',
+    question: ' This agricultural revolution began around 10,000 years ago with the development of crop cultivation and animal domestication.',
+    answer: 'What is the Neolithic Revolution?',
     value: 400
   },
   {
     id: 27,
-    question: 'Question 6',
-    answer: 'Answer 6',
+    question: 'This term refers to the outward growth of urban areas, often leading to the development of suburbs and the loss of rural land.',
+    answer: 'What is urban sprawl?',
     value: 400
   },
   {
     id: 28,
-    question: 'Question 7',
-    answer: 'Answer 7',
+    question: "This economic concept measures the total value of goods and services produced within a country's borders in a given year.",
+    answer: 'What is Gross Domestic Product?',
     value: 400
   },
   {
@@ -211,13 +211,13 @@ const questions = [{
   },
   {
     id: 34,
-    question: 'Question 6',
-    answer: 'Answer 6',
+    question: 'This term refers to a hierachical settlement ordering principle that dictates the expected population of smaller cities given the biggest city in a country.',
+    answer: 'What is the rank-size rule?',
     value: 500
   },
   {
     id: 35,
-    question: 'Question 7',
+    question: "This term refers to how the clustering of an industry affects costs associated with a manufacturing plant, and is one of the three factors in Weber's Least Cost Theory of Industrial Location",
     answer: 'Answer 7',
     value: 500
   }
