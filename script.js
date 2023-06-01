@@ -121,7 +121,7 @@ const questions = [{
   },
   {
     id: 19,
-    question: 'What is the name of the process that greatly increased agricultural productivity in the 20th century, allowing for the production of more food per acre of land?',
+    question: 'What is the name of the revolution that greatly increased agricultural productivity in the 20th century, allowing for the production of more food per acre of land?',
     answer: 'What is the Green Revolution?',
     value: 300
   },
