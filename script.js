@@ -218,7 +218,7 @@ const questions = [{
   {
     id: 35,
     question: "This term refers to how the clustering of an industry affects costs associated with a manufacturing plant, and is one of the three factors in Weber's Least Cost Theory of Industrial Location",
-    answer: 'Answer 7',
+    answer: 'What are agglomeration costs?',
     value: 500
   }
 ];
